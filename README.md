@@ -26,17 +26,44 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 
 ##  Features of This Project
 
-###  Raspberry Pi Optical Flow System
+###  Raspberry Pi + camera module
 - Reads camera frames  
 - Computes drift (dx, dy, speed)  
 - Logs data to CSV  
-- Provides visual graphs  
+- Provides visual graphs
+
+# Placement of Camera on the Drone
+- **X-axis → Drone’s Left–Right**
+- **Y-axis → Drone’s Forward–Backward**
+- 
+The camera is used for software-based optical flow and drift measurement.
+
+# Correct Orientation:
+- Must face **straight downward** toward the ground.
+- The **top of the camera points toward the drone front**.
+- The **left side of the camera aligns with the drone left side**.
+- The lens must be **flat (0° tilt)**.
+
+This ensures:
+- Drone moving forward → ground texture moves backward in the image.
+- Drone moving right → texture moves left in the image.
 
 ###  HERE Flow Sensor Integration
 - PMW3901-based optical flow  
 - Mounted on drone bottom  
 - Interfaces with Pixhawk/Cube  
-- Provides stable hover indoors  
+- Provides stable hover indoors
+
+# Placement of optical flow sensor on the Drone  
+- Must be mounted **facing downward**, same as the camera.
+- The **arrow on the HERE Flow must point toward the drone front**.
+- The sensor must be **flat**, without tilt.
+- X and Y axes must align with the drone axes.
+
+#### Height Requirement:
+- Minimum: **8–10 cm**
+- Best performance: **20–200 cm**
+- Too high (>3 m) or too low (<5 cm) can reduce accuracy.
 
 ###  Drift Comparison (With vs Without Optical Flow)
 - Reduced drift recorded  
