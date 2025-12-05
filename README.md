@@ -48,8 +48,8 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 ## 🛠 Hardware Used
 
 - **PMW3901 / HERE Flow Optical Flow Sensor**  
-- **Pixhawk or Cube flight controller**  
-- **Raspberry Pi (4/5) with CSI camera**  
+- **Cube flight controller**  
+- **Raspberry Pi 4 with camera module**  
 - **Quadcopter frame (custom built)**  
 - BLDC motors + ESCs  
 - LiPo battery  
