@@ -29,6 +29,9 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 
 ##  Features of This Project
 
+<table>
+  <tr>
+    <td width="60%" valign="top">
 ###  Raspberry Pi + camera module
 - Reads camera frames  
 - Computes drift (dx, dy, speed)  
@@ -40,6 +43,14 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 - **Y-axis → Drone’s Forward–Backward**
 - 
 The camera is used for software-based optical flow and drift measurement.
+
+ </td>
+
+    <td width="40%" align="center">
+      <img src="YOUR_IMAGE_LINK_HERE" width="300">
+    </td>
+  </tr>
+</table>
 
 ## Correct Orientation:
 - Must face **straight downward** toward the ground.
