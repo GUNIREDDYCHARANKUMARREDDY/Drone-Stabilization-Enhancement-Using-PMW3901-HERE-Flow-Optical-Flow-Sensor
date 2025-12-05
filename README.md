@@ -1,6 +1,9 @@
 # Drone-Stabilization-Enhancement-Using-PMW3901-HERE-Flow-Optical-Flow-Sensor
 This project demonstrates how drone stability can be improved using an optical flow sensor (PMW3901/HERE Flow).   The system reduces drift during hover, enhances indoor stability, and makes the drone capable of holding position even without GPS.
 
+<p align="center" style="background:white; padding:20px;">
+  <img src="YOUR_IMAGE_LINK_HERE" width="700">
+</p>
 
 The repository includes:
 - Drift measurement using Raspberry Pi + Camera  
@@ -73,6 +76,7 @@ This ensures:
 - Visual overlapped plots included  
 
 ---
+
 
 ## 🛠 Hardware Used
 
