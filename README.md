@@ -32,13 +32,13 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 - Logs data to CSV  
 - Provides visual graphs
 
-# Placement of Camera on the Drone
+## Placement of Camera on the Drone
 - **X-axis → Drone’s Left–Right**
 - **Y-axis → Drone’s Forward–Backward**
 - 
 The camera is used for software-based optical flow and drift measurement.
 
-# Correct Orientation:
+## Correct Orientation:
 - Must face **straight downward** toward the ground.
 - The **top of the camera points toward the drone front**.
 - The **left side of the camera aligns with the drone left side**.
@@ -47,6 +47,8 @@ The camera is used for software-based optical flow and drift measurement.
 This ensures:
 - Drone moving forward → ground texture moves backward in the image.
 - Drone moving right → texture moves left in the image.
+  
+---
 
 ###  HERE Flow Sensor Integration
 - PMW3901-based optical flow  
@@ -54,7 +56,7 @@ This ensures:
 - Interfaces with Pixhawk/Cube  
 - Provides stable hover indoors
 
-# Placement of optical flow sensor on the Drone  
+## Placement of optical flow sensor on the Drone  
 - Must be mounted **facing downward**, same as the camera.
 - The **arrow on the HERE Flow must point toward the drone front**.
 - The sensor must be **flat**, without tilt.
