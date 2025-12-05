@@ -32,6 +32,7 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 <table>
   <tr>
     <td width="60%" valign="top">
+      
 ###  Raspberry Pi + camera module
 - Reads camera frames  
 - Computes drift (dx, dy, speed)  
