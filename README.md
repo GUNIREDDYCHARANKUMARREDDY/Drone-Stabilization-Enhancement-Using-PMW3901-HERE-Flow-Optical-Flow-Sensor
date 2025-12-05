@@ -64,12 +64,25 @@ This ensures:
 - Drone moving right → texture moves left in the image.
   
 ---
+<table>
+  <tr>
+    <td width="60%" valign="top">
 
-###  HERE Flow Sensor Integration
+### HERE Flow Sensor Integration
+
 - PMW3901-based optical flow  
 - Mounted on drone bottom  
 - Interfaces with Pixhawk/Cube  
-- Provides stable hover indoors
+- Provides stable hover indoors  
+
+    </td>
+
+    <td width="40%" align="center">
+      <img src="https://github.com/GUNIREDDYCHARANKUMARREDDY/Drone-Stabilization-Enhancement-Using-PMW3901-HERE-Flow-Optical-Flow-Sensor/blob/main/images/optical%20flow.png" width="300">
+    </td>
+  </tr>
+</table>
+
 
 ## Placement of optical flow sensor on the Drone  
 - Must be mounted **facing downward**, same as the camera.
@@ -86,6 +99,10 @@ This ensures:
 - Reduced drift recorded  
 - Improved position hold accuracy  
 - Visual overlapped plots included  
+
+<p align="center">
+  <img src="https://github.com/GUNIREDDYCHARANKUMARREDDY/Drone-Stabilization-Enhancement-Using-PMW3901-HERE-Flow-Optical-Flow-Sensor/blob/main/images/optical%20flow.png" >
+</p>
 
 ---
 
