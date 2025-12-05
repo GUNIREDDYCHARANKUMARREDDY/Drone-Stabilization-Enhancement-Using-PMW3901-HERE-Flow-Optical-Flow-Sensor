@@ -28,12 +28,24 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 ---
 
 ##  Features of This Project
+<table>
+  <tr>
+    <td width="60%" valign="top">
 
-###  Raspberry Pi + camera module
+### Raspberry Pi + camera module
+
 - Reads camera frames  
 - Computes drift (dx, dy, speed)  
 - Logs data to CSV  
-- Provides visual graphs
+- Provides visual graphs  
+
+    </td>
+
+    <td width="40%" align="center">
+      <img src="https://github.com/GUNIREDDYCHARANKUMARREDDY/Drone-Stabilization-Enhancement-Using-PMW3901-HERE-Flow-Optical-Flow-Sensor/blob/main/images/raspberrypi.jpg" width="300">
+    </td>
+  </tr>
+</table>
 
 ## Placement of Camera on the Drone
 - **X-axis → Drone’s Left–Right**
