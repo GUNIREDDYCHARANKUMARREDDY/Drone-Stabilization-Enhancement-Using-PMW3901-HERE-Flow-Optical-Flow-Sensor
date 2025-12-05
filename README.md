@@ -101,7 +101,7 @@ This ensures:
 - Visual overlapped plots included  
 
 <p align="center">
-  <img src="https://github.com/GUNIREDDYCHARANKUMARREDDY/Drone-Stabilization-Enhancement-Using-PMW3901-HERE-Flow-Optical-Flow-Sensor/blob/main/images/optical%20flow.png" >
+  <img src="https://github.com/GUNIREDDYCHARANKUMARREDDY/Drone-Stabilization-Enhancement-Using-PMW3901-HERE-Flow-Optical-Flow-Sensor/blob/main/images/overlap.png" >
 </p>
 
 ---
