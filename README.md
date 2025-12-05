@@ -11,7 +11,7 @@ The repository includes:
 
 ---
 
-## 🚀 Project Motivation
+##  Project Motivation
 
 Drones naturally drift due to:
 - Air turbulence  
@@ -24,21 +24,21 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 
 ---
 
-## 📦 Features of This Project
+##  Features of This Project
 
-### ✔ Raspberry Pi Optical Flow System
+###  Raspberry Pi Optical Flow System
 - Reads camera frames  
 - Computes drift (dx, dy, speed)  
 - Logs data to CSV  
 - Provides visual graphs  
 
-### ✔ HERE Flow Sensor Integration
+###  HERE Flow Sensor Integration
 - PMW3901-based optical flow  
 - Mounted on drone bottom  
 - Interfaces with Pixhawk/Cube  
 - Provides stable hover indoors  
 
-### ✔ Drift Comparison (With vs Without Optical Flow)
+###  Drift Comparison (With vs Without Optical Flow)
 - Reduced drift recorded  
 - Improved position hold accuracy  
 - Visual overlapped plots included  
@@ -59,6 +59,7 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 
 ## 🧰 Software Used
 
+- **RaspberryPi3-64bit Operating System**
 - **Python 3**  
 - **OpenCV** (Optical flow calculation)  
 - **NumPy**  
@@ -66,5 +67,4 @@ It provides real-time motion feedback that helps stabilize the drone in the X-Y 
 
 ---
 
-## 📁 Repository Structure
 
